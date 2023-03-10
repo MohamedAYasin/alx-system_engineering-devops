@@ -1,0 +1,48 @@
+#!/bin/bash
+#!/bin/bash
+
+# Define ASCII art for Star Wars scenes
+star_wars_intro="
+             _______________
+         ___/ -------------- \___
+     ---/   Welcome to the    ------
+ ---/       Death Star        -------
+/ ---------------------------------- \
+
+"
+
+star_wars_spaceship="
+      ___
+ _  // \\
+\\\/// _-'
+ \\/\//
+  \/
+"
+
+star_wars_lightsaber="
+      ____
+ _[]_/____\__n_
+|    ("""""""""""""""""""| []  o  
+
+"
+
+# Clear the terminal
+clear
+
+# Play Star Wars intro
+echo "$star_wars_intro"
+sleep 2
+
+# Play the sound of the spaceship
+echo -e "\a"
+echo "$star_wars_spaceship"
+sleep 2
+
+# Play the sound of the lightsaber
+echo -e "\a"
+echo "$star_wars_lightsaber"
+sleep 2
+
+# Display a message
+echo "May the force be with you!"
+
